@@ -1,7 +1,27 @@
+#section1{
+  bgcolor:#40444f;
+}
+/*CMlogo*/
 .logo{
-position: absolute;
-width: 1042px;
-height: 338px;
-left: 99px;
-top: 125px;
+  position: absolute;
+  width: 1042px;
+  height: 338px;
+  left: 99px;
+  top: 125px;
+}
+/*botton*/
+.botton{
+  position: absolute;
+  width: 458px;
+  height: 77px;
+  left: 683px;
+  top: 743px;
+}
+/*welcome*/
+.bottoned{
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  left: 812px;
+  top: 754px;
 }
