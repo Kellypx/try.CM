@@ -1,6 +1,7 @@
+/*index.html*/
 /*背景統一顏色*/
 body{
-  background:#40444f;
+  background:rgba(66, 66, 66, 1);
 }
 /*CMlogo*/
 .logo{
@@ -10,25 +11,47 @@ body{
   left: 99px;
   top: 125px;
 }
-/*botton*/
-.botton{
+/*button*/
+.button{
+	background: rgba(175, 218, 218, 0.51);
+	border: 4px solid #9DF9F9;
+	border-radius: 30px; /*圓弧角*/
+	
+	position: absolute;
+	width: 458px;
+	height: 77px;
+	left: 683px;
+	top: 450px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	color: #9ED5D4;
+}
+
+/*home.html*/
+.header{
   position: absolute;
-  width: 200px;
-  height: 56px;
-  left: 812px;
-  top: 754px;
-  
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 56px;
-  color: #9ED5D4;
-  
-  background: rgba(175, 218, 218, 0.51);
-  border: 4px solid #9DF9F9;
-  border-radius: 30px;
-  width: 458px;
-  height: 77px;
-  left: 683px;
-  top: 743px;
+  width: normal;
+  left: 0px;
+  top: 0px;
+}
+.home{
+  position: absolute;
+  width: 800px;
+  top: 100px;
+  left: 250px;
+}
+.copyright{
+  font-size: 14px;
+  line-height: 16px;
+  color: #A6A4A4;
+
+  position: absolute;
+  width: 225px;
+  left: 543px;
+  top: 975px;
+  padding:10px;
 }
